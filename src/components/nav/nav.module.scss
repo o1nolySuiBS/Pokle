@@ -1,0 +1,41 @@
+.nav {
+  background: linear-gradient(135deg, #2c2c2c, #232323);
+  width: 55px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 4px 0 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid #262626;
+}
+
+.link {
+  text-decoration: none;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.icon {
+  color: #ffffff;
+  transition: color 0.3s ease, transform 0.3s ease;
+  margin-top: 40px;
+}
+
+.icon:hover {
+  color: #989898;
+  transform: scale(1.2);
+}
+
+.sunMoonWrapper {
+  margin-top: auto;
+  padding-bottom: 30px;
+  color: #ffffff;
+  transition: color 0.3s ease, transform 0.3s ease;
+
+}
+
+
+
